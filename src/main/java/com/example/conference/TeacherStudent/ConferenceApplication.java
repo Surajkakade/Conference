@@ -11,12 +11,6 @@ public class ConferenceApplication {
 		String url = "jdbc:h2:/data/sample;IFEXISTS=TRUE";
 
 		System.out.println("***************************************************************************");
-		System.out.println("                                                                ");
-		System.out.println("***************************************************************************");
-		System.out.println("                                                                ");
-		System.out.println("                                                                ");
-		System.out.println("                                                                ");
-		System.out.println("                                                                  ");
 		System.out.println(url);
 		SpringApplication.run(ConferenceApplication.class, args);
 	}
